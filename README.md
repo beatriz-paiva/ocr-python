@@ -1,1 +1,1 @@
-# ocr-phyton
+# OCR-Python
