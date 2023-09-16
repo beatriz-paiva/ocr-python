@@ -8,8 +8,8 @@
 **Atualizando o Python no Windows:**
 
 1. Abra o prompt de comando como administrador.
-2. Execute `python -m pip install --upgrade pip` para atualizar o pip.
-3. Execute `python -m pip install --upgrade python` para atualizar o Python.
+2. Execute `py -m pip install --upgrade pip` para atualizar o pip.
+3. Execute `py -m pip install --upgrade python` para atualizar o Python.
 
 **Baixando bibliotecas no Windows ou linux:**
 
@@ -29,8 +29,8 @@
 **Substituindo a Versão do Python no Windows:**
 
 1. Abra o prompt de comando como administrador.
-2. Execute `python -m pip install --upgrade pip` para atualizar o pip.
-3. Execute `python -m pip install python==3.11` para instalar a nova versão.
+2. Execute `py -m pip install --upgrade pip` para atualizar o pip.
+3. Execute `py -m pip install python==3.11` para instalar a nova versão.
 4. Para substituir a versão antiga, execute:
    ```
    rmdir /s /q C:\Python39
@@ -48,5 +48,5 @@
    ```
 
 **- Verifique a versão do Python**
-1. Execute `python --version` para verificar a versão do python.
+1. Execute `python --version` ou `py --version` para verificar a versão do python.
 2. Se estiver usando uma versão mais antiga, desinstale-a com `python -m pip uninstall python` antes de instalar a nova versão.

@@ -12,6 +12,8 @@ imagem = Image.open(path_img)
 
 texto = pytesseract.image_to_string(imagem)
 
+# print(texto)
+
 path_txt = os.path.join(dir_path, 'texto.txt')
 
 with open(path_txt, 'w') as arquivo_txt:
