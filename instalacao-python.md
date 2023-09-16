@@ -11,10 +11,10 @@
 2. Execute `python -m pip install --upgrade pip` para atualizar o pip.
 3. Execute `python -m pip install --upgrade python` para atualizar o Python.
 
-**Baixando bibliotecas no Windows:**
+**Baixando bibliotecas no Windows ou linux:**
 
 1. Abra o prompt de comando como administrador.
-2. Execute `python -m pip install biblioteca` para instalar uma biblioteca.
+2. Execute `python(ou python3) -m pip install [biblioteca]` para instalar uma biblioteca.
 
 **Instalando e Atualizando o Python no Linux:**
 
@@ -25,10 +25,6 @@
 
 1. Execute `sudo apt-get update` para atualizar os pacotes do sistema.
 3. Execute `sudo apt-get upgrade python3` para atualizar o Python.
-
-**Baixando bibliotecas no Linux:**
-
-1. Execute `sudo apt-get install biblioteca` para instalar uma biblioteca.
 
 **Substituindo a Versão do Python no Windows:**
 
